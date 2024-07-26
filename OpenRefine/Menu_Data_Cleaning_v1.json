@@ -1,0 +1,2573 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notes",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notes using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "venue",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column venue using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "place",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column place using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column occasion using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column occasion using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "notes",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column notes using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "location",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column location using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "status",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column status using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "id",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column id using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/^\\{+|\\}+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/^\\{+|\\}+$/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/^\\[+|\\]+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/^\\[+|\\]+$/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/\"/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/\"/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/\\\\/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/\\\\/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "grel:value.replace(/\\//, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression grel:value.replace(/\\//, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/^\\[(.*)\\]$/, \"$1\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/^\\[(.*)\\]$/, \"$1\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/^\\[+|\\]+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/^\\[+|\\]+$/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/^\\{+|\\}+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/^\\{+|\\}+$/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/\"/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/\"/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/\\\\/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/\\\\/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/\\//, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/\\//, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "sponsor",
+    "expression": "value.toTitlecase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sponsor using expression value.toTitlecase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression value.toUppercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression grel:if(value == \"?\", value, value.replace(/\\?/, \"\").trim())"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression grel:value.replace(/^\\((.*)\\)$/, \"$1\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "grel:value.replace(/^\\[+|\\]+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression grel:value.replace(/^\\[+|\\]+$/, \"\").trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "grel:value.replace(/^\\{+|\\}+$/, \"\").trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression grel:value.replace(/^\\{+|\\}+$/, \"\").trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER",
+          "DINNER;",
+          "DINNER ()",
+          "DINNER()",
+          "DINNER,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "SUPPER",
+          "SUPPER ()",
+          "SUPPER()",
+          "SUPPER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER"
+      },
+      {
+        "from": [
+          "LUNCH",
+          "LUNCH;",
+          "LUNCH ()",
+          "LUNCH."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "BREAKFAST",
+          "BREAKFAST;",
+          "BREAKFAST ()",
+          "BREAKFAST()"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST"
+      },
+      {
+        "from": [
+          "LUNCH & DINNER",
+          "LUNCH; DINNER",
+          "DINNER - LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "FRUHSTUCK-BREAKFAST",
+          "FRUHSTUCK/BREAKFAST",
+          "FRUHSTUCK/BREAKFAST;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRUHSTUCK-BREAKFAST"
+      },
+      {
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY DINNER MENU",
+          "DAILY MENU; DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, DINNER"
+      },
+      {
+        "from": [
+          "A LA CARTE; DINNER",
+          "DINNER A LA CARTE",
+          "DINNER; A LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A LA CARTE; DINNER"
+      },
+      {
+        "from": [
+          "DAILY LUNCH MENU",
+          "DAILY MENU, LUNCH",
+          "DAILY MENU; LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY LUNCH MENU"
+      },
+      {
+        "from": [
+          "LUNCH OR DINNER",
+          "DINNER OR LUNCH",
+          "LUNCH &/OR DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH OR DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU",
+          "DAILY MENU;",
+          "DAILY] MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      },
+      {
+        "from": [
+          "MITTAGESSEN",
+          "MITTAG-ESSEN",
+          "MITTAGESSEN;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP - LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON",
+          "INSPECTION TRIP, LUNCHEON;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP - LUNCHEON"
+      },
+      {
+        "from": [
+          "BANQUET AND RECEPTION",
+          "RECEPTION AND BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET AND RECEPTION"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE DINNER",
+          "DINNER TABLE D'HOTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE DINNER"
+      },
+      {
+        "from": [
+          "CARTE DU JOUR",
+          "CARTE DU JOUR;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CARTE DU JOUR"
+      },
+      {
+        "from": [
+          "AFTERNOON TEA",
+          "AFTERNOON TEA ["
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "AFTERNOON TEA"
+      },
+      {
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP, DINNER",
+          "INSPECTION TRIP, DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP, DINNER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN/DINNER",
+          "MITTAGESSEN[DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN/DINNER"
+      },
+      {
+        "from": [
+          "WINE LIST",
+          "WINE LIST;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WINE LIST"
+      },
+      {
+        "from": [
+          "DINNER,SECOND CABIN",
+          "DINNER-SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER,SECOND CABIN"
+      },
+      {
+        "from": [
+          "LUNCHEON TABLE D'HOTE",
+          "TABLE D'HOTE LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON TABLE D'HOTE"
+      },
+      {
+        "from": [
+          "LADIES NIGHT",
+          "LADIES' NIGHT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LADIES NIGHT"
+      },
+      {
+        "from": [
+          "BREAKFAST AND SUPPER",
+          "SUPPER AND BREAKFAST"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST AND SUPPER"
+      },
+      {
+        "from": [
+          "WEDDING",
+          "WEDDING()"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WEDDING"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY BANQUET",
+          "BANQUET (WASHINGTON'S BIRTHDAY)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY BANQUET"
+      },
+      {
+        "from": [
+          "ABEND-ESSEN",
+          "ABENDESSEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ABEND-ESSEN"
+      },
+      {
+        "from": [
+          "MENU",
+          "MENU;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MENU"
+      },
+      {
+        "from": [
+          "BREAKFAST () HELD BY NORDEUTSCHER LLOYD BREMEN AT ON BOARD THE SS GEORGE WASHINGTON",
+          "BREAKFAST HELD BY NORDEUTSCHER LLOYD BREMEN AT ON BOARD THE SS GEORGE WASHINGTON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST HELD BY NORDEUTSCHER LLOYD BREMEN AT ON BOARD THE SS GEORGE WASHINGTON"
+      },
+      {
+        "from": [
+          "DINNER TO ABOVE",
+          "DINNER TO ABOVE;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER TO ABOVE"
+      },
+      {
+        "from": [
+          "DAILY LUNCH;",
+          "DAILY LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY LUNCH"
+      },
+      {
+        "from": [
+          "LUNCHEON A LA CARTE",
+          "LUNCHEON, A LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON A LA CARTE"
+      },
+      {
+        "from": [
+          "LINCOLN'S BIRTHDAY DINNER",
+          "DINNER, LINCOLNS BIRTHDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LINCOLN'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DINNER",
+          "NEW YEARS DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DINNER"
+      },
+      {
+        "from": [
+          "FIFTH ANNUAL DINNER",
+          "DINNER, FIFTH ANNUAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FIFTH ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "ST. VALENTINE'S DAY DINNER",
+          "ST. VALENTINES DAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ST. VALENTINE'S DAY DINNER"
+      },
+      {
+        "from": [
+          "FRUHSTUCK/LUNCH",
+          "FRUHSTUCK-LUNCH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRUHSTUCK/LUNCH"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DAY DINNER",
+          "NEW YEARS DAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DAY DINNER"
+      },
+      {
+        "from": [
+          "EIGHTH ANNUAL BANQUET",
+          "EIGHTH ANNUAL BANQUET'"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EIGHTH ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "DAILY MENU, BREAKFAST",
+          "DAILY BREAKFAST MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, BREAKFAST"
+      },
+      {
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY LUNCHEON MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "from": [
+          "LUNCHEON",
+          "LUNCHEON;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCHEON"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP, BREAKFAST",
+          "INSPECTION TRIP - BREAKFAST"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP, BREAKFAST"
+      },
+      {
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN [DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN - DINNER"
+      },
+      {
+        "from": [
+          "LUNCH-DINNER",
+          "LUNCH;DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH OR DINNER"
+      },
+      {
+        "from": [
+          "ANNIVERSARY DINNER",
+          "ANNIVERSARY [DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY DINNER"
+      },
+      {
+        "from": [
+          "MIDDAG/DINNER",
+          "MIDDAG-DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MIDDAG/DINNER"
+      },
+      {
+        "from": [
+          "DAILY BILL OF FARE",
+          "DAILY BILL OF FARE;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY BILL OF FARE"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER/DINER",
+          "DINER/DINNER",
+          "DINNER, DINER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, LUNCHEON",
+          "DAILY MENU,LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, LUNCHEON"
+      },
+      {
+        "from": [
+          "WEDDING DINNER",
+          "(WEDDING)DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WEDDING DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST - SECOND CABIN",
+          "BREAKFAST-SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST - SECOND CABIN"
+      },
+      {
+        "from": [
+          "BREAKFAST,LUNCH & DINNER",
+          "BREAKFAST; LUNCH; DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST, LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, SUPPER",
+          "DAILY MENU,SUPPER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, SUPPER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN - DINNER",
+          "MITTAGESSEN/DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN - DINNER"
+      },
+      {
+        "from": [
+          "DINNER",
+          "DINNNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DEJEUNER FOURCHETTE/LUNCHEON",
+          "DEJEUNER FOURCHETTE/ LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DEJEUNER FOURCHETTE/LUNCHEON"
+      },
+      {
+        "from": [
+          "DINNER DANCE",
+          "DINNER-DANCE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER DANCE"
+      },
+      {
+        "from": [
+          "DINNER - SECOND CABIN",
+          "DINNER,SECOND CABIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER - SECOND CABIN"
+      },
+      {
+        "from": [
+          "FOURTH OF JULY DINNER",
+          "FOURTH OFJULY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOURTH OF JULY DINNER"
+      },
+      {
+        "from": [
+          "DAILY MENU, DINNER",
+          "DAILY MENU,DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU, DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER",
+          "DINER",
+          "DNNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "DINING CAR SERVICE MEALS",
+          "DINING CAR SERVICE (DINNER)",
+          "DINING CAR SERVICE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINING CAR SERVICE MEALS"
+      },
+      {
+        "from": [
+          "MITTAGESSEN",
+          "MITAGESSEN",
+          "MITTAGESEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN"
+      },
+      {
+        "from": [
+          "HAUPTMAHLZEIT-DINNER",
+          "HAUPTMAHLZEIT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HAUPTMAHLZEIT-DINNER"
+      },
+      {
+        "from": [
+          "ST. VALENTINE'S DAY DINNER",
+          "ST. VALENTINE'S DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ST. VALENTINE'S DAY DINNER"
+      },
+      {
+        "from": [
+          "CARTE DU JOUR-DINER",
+          "CARTE DU JOUR/DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CARTE DU JOUR-DINER"
+      },
+      {
+        "from": [
+          "SAINT NICHOLAS DAY",
+          "SAINT NICHOLAS DAY [DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SAINT NICHOLAS DAY"
+      },
+      {
+        "from": [
+          "SUPPER",
+          "SOUPER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER"
+      },
+      {
+        "from": [
+          "DINNE",
+          "DINNWE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "EASTER SUNDAY LUNCH",
+          "EASTER SUNDAY LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EASTER SUNDAY LUNCH"
+      },
+      {
+        "from": [
+          "FRUHSTUCK/LUNCH",
+          "FRUHSTUCK-LUNCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FRUHSTUCK/LUNCH"
+      },
+      {
+        "from": [
+          "SECOND ANNUAL DINNER",
+          "SECOND ANNUAL DANCE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECOND ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "SUPPER MENU",
+          "SUPPER MEN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER MENU"
+      },
+      {
+        "from": [
+          "OPENING DINNER",
+          "OPENING DINNER OF HOTEL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OPENING DINNER"
+      },
+      {
+        "from": [
+          "A LA CARTE; DINNER",
+          "A LA CARTE DINNER MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A LA CARTE; DINNER"
+      },
+      {
+        "from": [
+          "EVENING DINNER",
+          "EVENING DINNER MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EVENING DINNER"
+      },
+      {
+        "from": [
+          "CHRISTMAS DINNER",
+          "CHRISTMAS DINNR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHRISTMAS DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST - A LA CARTE",
+          "BREAKFAST ˆ LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST - A LA CARTE"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DAILY MENU - 11;30 T0 3;00",
+          "DAILY MENU - 11;30 TO 3;00",
+          "DAILY MENU, TEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU - 11;30 TO 3;00"
+      },
+      {
+        "from": [
+          "?",
+          "1899/11/09"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "?"
+      },
+      {
+        "from": [
+          "LUNCHEON",
+          "LINCHEON"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER",
+          "12 ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "DINNER",
+          "DEJEUNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "THANKSGIVING DINNER",
+          "THNAKSGIVING DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "THANKSGIVING DINNER"
+      },
+      {
+        "from": [
+          "INSPECTION TRIP, DINNER",
+          "INSPECTION TRIP - DINER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "INSPECTION TRIP, DINNER"
+      },
+      {
+        "from": [
+          "CARTE DU JOUR-DINER",
+          "CARTE DU JOUR-DEJEUNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CARTE DU JOUR-DINER"
+      },
+      {
+        "from": [
+          "DINNER ˆ LA CARTE",
+          "DINNER-A LA CARTE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER-A LA CARTE"
+      },
+      {
+        "from": [
+          "SUPPER AT A BALL",
+          "SUPPER AT THE BALL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUPPER AT THE BALL"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FOURTH OF JULY DINNER",
+          "FOURTH OF JULY DINNER MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOURTH OF JULY DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EIGHTH ANNUAL DINNER",
+          "EIGHT ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EIGHTH ANNUAL DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "DINNER O PRINCE AND PRINCESS OF WALES",
+          "DINNER TO PRINCE AND PRINCESS OF WALES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER O PRINCE AND PRINCESS OF WALES"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE",
+          "TABLE D'HOTER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE"
+      },
+      {
+        "from": [
+          "LUNCH AND DINNER",
+          "LUMCH AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH AND DINNER"
+      },
+      {
+        "from": [
+          "MITTAGESSEN",
+          "MITTAGESSES"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MITTAGESSEN"
+      },
+      {
+        "from": [
+          "CHRISTMAS DINNER",
+          "CHRISTMAN DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CHRISTMAS DINNER"
+      },
+      {
+        "from": [
+          "7NTH ANNUAL BANQUET",
+          "7TH ANNUAL BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "7TH ANNUAL BANQUET"
+      },
+      {
+        "from": [
+          "DAILY MENU",
+          "DAILY MENUS"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "NEW YEAR'S DAY DINNER",
+          "NEW YEAR'S DINNER",
+          "NEW YEAR DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DAY DINNER"
+      },
+      {
+        "from": [
+          "EIGHTH ANNUAL DINNER",
+          "EIGHTEENTH ANNUAL DINNER",
+          "EIGTH ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EIGHTH ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE",
+          "TABLE D'HOTE MEAL",
+          "TABLE D'HOTE MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY DINNER",
+          "WASHINGTON'S BIRTHDAY",
+          "WASHINGTON'S BIRTHDAY EVE"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "SECOND ANNUAL DINNER",
+          "2ND ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECOND ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "FIFTH ANNUAL DINNER",
+          "FIFH ANNUAL DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FIFTH ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "TABLE D'HOTE MEAL",
+          "TABLE D'HOTE MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "TABLE D'HOTE MEAL"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DINNER",
+          "NEW YEAR DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DINNER"
+      },
+      {
+        "from": [
+          "SIXTH ANNIVERSARY BANQUET",
+          "SIXTH ANNUAL ANNIVERSARY BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SIXTH ANNIVERSARY BANQUET"
+      },
+      {
+        "from": [
+          "ANNUAL MEETING & DINNER",
+          "ANNUAL MEETING AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL MEETING & DINNER"
+      },
+      {
+        "from": [
+          "LUNCH AND DINNER",
+          "LUNCHEON AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "LUNCH AND DINNER"
+      },
+      {
+        "from": [
+          "FOURTH OF JULY",
+          "FOURTH OF JULY MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOURTH OF JULY"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY DINNER",
+          "WASHINGTON'S BIRTHDAY DINNER MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST, LUNCH & DINNER",
+          "BREAKFAST, LUNCH AND DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST, LUNCH & DINNER"
+      },
+      {
+        "from": [
+          "BREAKFAST & DINNER MENU",
+          "DAILY BREAKFAST & DINNER MENU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST & DINNER MENU"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY DINNER",
+          "ANNUAL WASHINGTON'S BIRTHDAY DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY DINNER"
+      },
+      {
+        "from": [
+          "QUICK LUNCHEON AND AFTERNOON TEA",
+          "QUICK LUNCHEON, AFTERNOON TEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "QUICK LUNCHEON AND AFTERNOON TEA"
+      },
+      {
+        "from": [
+          "WASHINGTON'S BIRTHDAY",
+          "WASHINGT0N'S BIRTHDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "WASHINGTON'S BIRTHDAY"
+      },
+      {
+        "from": [
+          "NEW YEAR'S DAY DINNER",
+          "NEW YEAR'S DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NEW YEAR'S DAY DINNER"
+      },
+      {
+        "from": [
+          "REUNION AND DINNER",
+          "REUNION DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "REUNION AND DINNER"
+      }
+    ],
+    "description": "Mass edit cells in column event"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "event",
+    "expression": "grel:value.replace(/LUNCHEON/, \"LUNCH\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column event using expression grel:value.replace(/LUNCHEON/, \"LUNCH\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "occasion",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "COMPL.",
+          "[COMPL?];",
+          "COMPL?;",
+          "[COMPL];",
+          "COMPL (?);",
+          "COMPL(?);",
+          "COMPL;(?)",
+          "[COMPL.]",
+          "[COMPL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMPL."
+      },
+      {
+        "from": [
+          "OTHER (SOC);",
+          "OTHER (SOC?);",
+          "OTHER (SOC?)",
+          "OTHER (SOC)",
+          "OTHER [SOC?];",
+          "OTHER (SOC.)",
+          "OTHER )SOC);",
+          "OTHER [SOC]",
+          "OTHER, [SOC?];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (SOC);"
+      },
+      {
+        "from": [
+          "ANNIVERSARY;",
+          "ANNIVERSARY (?);",
+          "ANNIVERSARY(?);",
+          "ANNIVERSARY",
+          "ANNIVERSARY.",
+          "ANNIVERSARY?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARY;"
+      },
+      {
+        "from": [
+          "SECULAR HOLIDAY;",
+          "SECULAR HOLIDAY",
+          "SECULAR HOLIDAY. HOLIDAY",
+          "SECULAR HOLIDAY. HOLIDAY;",
+          "SECULAR HOLIDAY HOLIDAY;",
+          "SECULAR HOLIDAY HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECULAR HOLIDAY;"
+      },
+      {
+        "from": [
+          "OTHER (ANNIVERSARY);",
+          "OTHER (ANNIVERSARY)",
+          "OTHER (ANNIVERSARY?)",
+          "OTHER - ANNIVERSARY",
+          "OTHER {ANNIVERSARY};"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNIVERSARY);"
+      },
+      {
+        "from": [
+          "[ANNIV?];",
+          "(ANNIV);",
+          "(ANNIV?);",
+          "[?ANNIV?];",
+          "[ANNIV?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[ANNIV?];"
+      },
+      {
+        "from": [
+          "SOC;",
+          "[SOC?]",
+          "(SOC?)",
+          "[SOC]",
+          "(SOC);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOC;"
+      },
+      {
+        "from": [
+          "OTHER (MEETING);",
+          "OTHER (MEETING)",
+          "OTHER (MEETING?);",
+          "OTHER (MEETING?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (MEETING);"
+      },
+      {
+        "from": [
+          "OTHER (SOCIAL?)",
+          "OTHER (SOCIAL);",
+          "OTHER (SOCIAL?);",
+          "OTHER [SOCIAL];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (SOCIAL?)"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL EVENT)",
+          "OTHER (ANNUAL EVENT);",
+          "OTHER {ANNUAL EVENT};",
+          "OTHER, ANNUAL EVENT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL EVENT)"
+      },
+      {
+        "from": [
+          "PATRIOTIC HOLIDAY;",
+          "PATRIOTIC HOLIDAY",
+          "PATRIOTIC HOLIDAY.",
+          "PATRIOTIC HOLIDAY. HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PATRIOTIC HOLIDAY;"
+      },
+      {
+        "from": [
+          "RITE;",
+          "RITE",
+          "(RITE)",
+          "(RITE);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RITE;"
+      },
+      {
+        "from": [
+          "OTHER (COMMEMORATIVE);",
+          "OTHER (COMMEMORATIVE)",
+          "OTHER (COMMEMORATIVE?)",
+          "OTHER [COMMEMORATIVE]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMORATIVE);"
+      },
+      {
+        "from": [
+          "DAILY;",
+          "DAILY",
+          "[DAILY]",
+          "DAILY?;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY;"
+      },
+      {
+        "from": [
+          "?",
+          ";",
+          "[?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "?"
+      },
+      {
+        "from": [
+          "ANNUAL",
+          "ANNUAL;",
+          "[ANNUAL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL"
+      },
+      {
+        "from": [
+          "SECULAR HOLIDAY.HOLIDAY",
+          "SECULAR HOLIDAY.HOLIDAY;",
+          "SECULAR HOLIDAY;HOLIDAY"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SECULAR HOLIDAY.HOLIDAY"
+      },
+      {
+        "from": [
+          "DAILY MENU;",
+          "DAILY MENU",
+          "(DAILY MENU)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MENU;"
+      },
+      {
+        "from": [
+          "OTHER (ANNIV)",
+          "OTHER (ANNIV);",
+          "OTHER (ANNIV?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNIV)"
+      },
+      {
+        "from": [
+          "OTHER",
+          "OTHER;",
+          "OTHER,"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER"
+      },
+      {
+        "from": [
+          "RELIG. HOLIDAY",
+          "RELIG. HOLIDAY;",
+          "RELIG HOLIDAY;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RELIG. HOLIDAY"
+      },
+      {
+        "from": [
+          "(SOCIAL)",
+          "(SOCIAL?)",
+          "SOCIAL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "(SOCIAL)"
+      },
+      {
+        "from": [
+          "ANNUAL DINNER",
+          "ANNUAL DINNER;",
+          "ANNUAl DINNER"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL DINNER"
+      },
+      {
+        "from": [
+          "[?REUNION?];",
+          "[RE-UNION]",
+          "[REUNION]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "[?REUNION?];"
+      },
+      {
+        "from": [
+          "ANNUAL EVENT",
+          "ANNUAL EVENT;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNUAL EVENT"
+      },
+      {
+        "from": [
+          "ANIV;",
+          "[ANIV?];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANIV;"
+      },
+      {
+        "from": [
+          "OTHER (REUNION);",
+          "(OTHER - REUNION?);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (REUNION);"
+      },
+      {
+        "from": [
+          "OTHER (DAILY DATED MENU);",
+          "OTHER (DATED DAILY MENU);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY DATED MENU);"
+      },
+      {
+        "from": [
+          "POL;",
+          "[POL?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POL;"
+      },
+      {
+        "from": [
+          "OTHER (DAILY MENU);",
+          "OTHER (DAILY MENU)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY MENU);"
+      },
+      {
+        "from": [
+          "SATURDAY DINNER",
+          "SATURDAY DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SATURDAY DINNER"
+      },
+      {
+        "from": [
+          "NATIONAL EVENT",
+          "NATIONAL EVENT;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NATIONAL EVENT"
+      },
+      {
+        "from": [
+          "PAT;",
+          "PAT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PAT;"
+      },
+      {
+        "from": [
+          "OTHER (COMMEMOATIVE)",
+          "OTHER (COMMEMOATIVE);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (COMMEMOATIVE)"
+      },
+      {
+        "from": [
+          "DAILY MEAL",
+          "DAILY MEAL;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY MEAL"
+      },
+      {
+        "from": [
+          "DINNER",
+          "DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DINNER"
+      },
+      {
+        "from": [
+          "SUNDAY DINNER",
+          "SUNDAY DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUNDAY DINNER"
+      },
+      {
+        "from": [
+          "ETHNIC HOLIDAY",
+          "[ETHNIC HOLIDAY]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ETHNIC HOLIDAY"
+      },
+      {
+        "from": [
+          "SUNDAY",
+          "SUNDAY;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SUNDAY"
+      },
+      {
+        "from": [
+          "BREAKFAST",
+          "BREAKFAST;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BREAKFAST"
+      },
+      {
+        "from": [
+          "OTHER (ANNUAL MEETING);",
+          "OTHER {ANNUAL MEETING};"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (ANNUAL MEETING);"
+      },
+      {
+        "from": [
+          "BANQUET;",
+          "BANQUET"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "BANQUET;"
+      },
+      {
+        "from": [
+          "ETH;",
+          "ETH"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ETH;"
+      },
+      {
+        "from": [
+          "ANNIVERSARYERSARY",
+          "ANNIVERSARYERSARY;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ANNIVERSARYERSARY"
+      },
+      {
+        "from": [
+          "OTHER (DAILY);",
+          "OTHER (DAILY)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (DAILY);"
+      },
+      {
+        "from": [
+          "DAILY DINNER",
+          "DAILY DINNER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DAILY DINNER"
+      },
+      {
+        "from": [
+          "SEMI-ANNUAL",
+          "SEMI-ANNUAL;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SEMI-ANNUAL"
+      }
+    ],
+    "description": "Mass edit cells in column occasion"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "venue",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SOC;",
+          "SOC",
+          "[SOC?];",
+          "SOC(?);",
+          "SOC.",
+          "[SOC]",
+          "SOC?;",
+          "(SOC);",
+          "(SOC?)",
+          "(SOC?);",
+          "SOC (?);",
+          "SOC(?):",
+          "[?SOC];",
+          "[SOC;]",
+          "[SOC?]",
+          "[SOC];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOC;"
+      },
+      {
+        "from": [
+          "GOVT;",
+          "GOVT(?);",
+          "GOV'T;",
+          "[GOVT?];",
+          "GOV'T",
+          "GOV'T.",
+          "GOVT",
+          "GOVT?;",
+          "[GOVT?]",
+          "[GOVT];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GOVT;"
+      },
+      {
+        "from": [
+          "COM",
+          "COM.",
+          "[COM]",
+          "(COM?);",
+          "COM(?);",
+          "COM.;",
+          "[COM?];",
+          "[COM}"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COM"
+      },
+      {
+        "from": [
+          "PROF;",
+          "PROF",
+          "PROF(?);",
+          "PROF.",
+          "PROF?;",
+          "[PROF?];",
+          "[PROF]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PROF;"
+      },
+      {
+        "from": [
+          "EDUC;",
+          "EDUC",
+          "EDUC (?);",
+          "[EDUC];",
+          "(EDUC);",
+          "[EDUC?];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "EDUC;"
+      },
+      {
+        "from": [
+          "POL;",
+          "POL",
+          "[POL]",
+          "POL.;",
+          "[POL?);",
+          "[POL?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POL;"
+      },
+      {
+        "from": [
+          "NAV;",
+          "NAV; (?)",
+          "NAV.",
+          "NAV",
+          "NAV(?);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NAV;"
+      },
+      {
+        "from": [
+          "MIL;",
+          "MIL",
+          "MIL (?);",
+          "MIL.",
+          "[MIL?];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MIL;"
+      },
+      {
+        "from": [
+          "OTHER;(PRIVATE);",
+          "OTHER,(PRIVATE);",
+          "OTHER,PRIVATE",
+          "OTHER;PRIVATE;",
+          "[OTHER;PRIVATE];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER;(PRIVATE);"
+      },
+      {
+        "from": [
+          "PATR;",
+          "PATR",
+          "PATR(?);",
+          "PATR."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PATR;"
+      },
+      {
+        "from": [
+          "COMM",
+          "COMM.",
+          "COMM;",
+          "COMM;."
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "COMM"
+      },
+      {
+        "from": [
+          "OTHER (PRIVATE PARTY);",
+          "OTHER (PRIVATE PARTY)",
+          "OTHER (PRIVATE PARTY?)",
+          "OTHER (PRIVATE PARTY?);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (PRIVATE PARTY);"
+      },
+      {
+        "from": [
+          "RELIG;",
+          "RELIG",
+          "RELIG?;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "RELIG;"
+      },
+      {
+        "from": [
+          "OTHER (PRIVATE CLUB)",
+          "OTHER (PRIVATE CLUB);",
+          "OTHER [PRIVATE CLUB?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (PRIVATE CLUB)"
+      },
+      {
+        "from": [
+          "GOV;",
+          "GOV.",
+          "[GOV];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GOV;"
+      },
+      {
+        "from": [
+          "NAVAL",
+          "NAVAL;",
+          "[NAVAL]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NAVAL"
+      },
+      {
+        "from": [
+          "SOCIAL",
+          "SOCIAL;",
+          "(SOCIAL?)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOCIAL"
+      },
+      {
+        "from": [
+          "?",
+          "[?]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "?"
+      },
+      {
+        "from": [
+          "POL; SOC;",
+          "SOC; POL;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "POL; SOC;"
+      },
+      {
+        "from": [
+          "OTHER (CLUB);",
+          "OTHER (CLUB)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (CLUB);"
+      },
+      {
+        "from": [
+          "SOCIAL CLUB",
+          "SOCIAL CLUB?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SOCIAL CLUB"
+      },
+      {
+        "from": [
+          "OTHER",
+          "OTHER;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER"
+      },
+      {
+        "from": [
+          "OTHER;(PERSONAL);",
+          "OTHER(PERSONAL);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER;(PERSONAL);"
+      },
+      {
+        "from": [
+          "FOREIGN",
+          "FOREIGN;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FOREIGN"
+      },
+      {
+        "from": [
+          "OTHER (PRIVATE);",
+          "OTHER [PRIVATE];"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "OTHER (PRIVATE);"
+      },
+      {
+        "from": [
+          "MILITARY",
+          "[MILITARY]"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "MILITARY"
+      },
+      {
+        "from": [
+          "PAT;",
+          "PAT"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PAT;"
+      },
+      {
+        "from": [
+          "(EDUCATIONAL)",
+          "EDUCATIONAL;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "(EDUCATIONAL)"
+      },
+      {
+        "from": [
+          "PATRIOTIC",
+          "PATRIOTIC?"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PATRIOTIC"
+      },
+      {
+        "from": [
+          "PRIVATE;",
+          "(PRIVATE);"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PRIVATE;"
+      },
+      {
+        "from": [
+          "PRIVATE PARTY",
+          "PRIVATE PARTY;"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "PRIVATE PARTY"
+      }
+    ],
+    "description": "Mass edit cells in column venue"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "name",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column name using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "keywords",
+    "description": "Remove column keywords"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "language",
+    "description": "Remove column language"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "location_type",
+    "description": "Remove column location_type"
+  }
+]
