@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="NMrLL65WsASJlamYeZJK">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ihulyhiIfvU_2t7ivcbW-14" target="ihulyhiIfvU_2t7ivcbW-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-14" value="&lt;b&gt;Data Cleaning via OpenRefine&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="570" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-1" value="Dish.csv" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-3" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;Data type conversion (e.g., string to number)&lt;/li&gt;&lt;li&gt;Cluster&lt;/li&gt;&lt;li&gt;Create new column to represent first appearance before 2012 and before 2024&lt;/li&gt;&lt;li&gt;Remove unused column&lt;/li&gt;&lt;li&gt;Handle missing values&lt;/li&gt;&lt;li&gt;Trim strings&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihulyhiIfvU_2t7ivcbW-1">
+          <mxGeometry y="30" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-5" value="Menu.csv" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-6" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;Data type conversion (e.g., string to number)&lt;/li&gt;&lt;li&gt;Trim strings&lt;/li&gt;&lt;li&gt;Regular expression to handle characters&lt;/li&gt;&lt;li&gt;Remove unused column&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihulyhiIfvU_2t7ivcbW-5">
+          <mxGeometry y="30" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-10" value="MenuItem.csv" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-11" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data type conversion (e.g., string to number)&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihulyhiIfvU_2t7ivcbW-10">
+          <mxGeometry y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-12" value="MenuPage.csv" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-13" value="&lt;ul&gt;&lt;li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Data type conversion (e.g., string to number)n&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="ihulyhiIfvU_2t7ivcbW-12">
+          <mxGeometry y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-15" value="&lt;b&gt;Integrity Constraint Check via MySQL&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="560" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-17" value="We focused not the primary key constraint and not null constraints for the ID columns in all four tables." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="620" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-18" value="&lt;b&gt;Query to find answer to our use case via MySQL&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="740" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-19" value="Develop queries to address our use case, specifically to identify the most expensive breakfast dish and compare its price with the highest-priced dishes from lunch and dinner in 2012." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="800" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihulyhiIfvU_2t7ivcbW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="690" as="sourcePoint" />
+            <mxPoint x="445" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
