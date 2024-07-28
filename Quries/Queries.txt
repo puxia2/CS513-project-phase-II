@@ -48,7 +48,7 @@ SELECT
     mf.event,
     dc.first_appeared,
     dc.last_appeared,
-    MAX(mif.price) AS max_price -- Assuming price is stored in menuitem_final
+    MAX(mif.price) AS max_price
 FROM
     cs531.dish_final dc
 JOIN
