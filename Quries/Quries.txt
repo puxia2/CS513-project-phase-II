@@ -1,0 +1,68 @@
+Queries :
+
+Integrity Constraint Check : 
+
+1) Check primary key constraints for all four tables prior to data cleaning.
+
+ALTER TABLE dish
+ADD PRIMARY KEY (id);
+SHOW KEYS FROM dish WHERE Key_name = 'PRIMARY';
+
+ALTER TABLE menu
+ADD PRIMARY KEY (id);
+SHOW KEYS FROM  menu WHERE Key_name = 'PRIMARY';
+
+ALTER TABLE menuitem
+ADD PRIMARY KEY (id);
+SHOW KEYS FROM menuitem WHERE Key_name = 'PRIMARY';
+
+ALTER TABLE menupage
+ADD PRIMARY KEY (id);
+SHOW KEYS FROM menupage WHERE Key_name = 'PRIMARY';
+
+
+Results: Primary key is successfully set for all four tables. Manual review confirmed there's no duplication for the id column. 
+Action: No action.
+
+2) Check non-null constraints for the id columns of all four tables. 
+
+SELECT * FROM dish
+WHERE id IS NULL;
+
+SELECT * FROM menu
+WHERE id IS NULL;
+
+SELECT * FROM menuitem
+WHERE id IS NULL;
+
+SELECT * FROM menupage
+WHERE id IS NULL;
+
+Results: 0 row(s) returned for all 4 tables. 
+Action: No action.
+
+3) An example query to find the most expensive breakfast dish from 2012 to 2024:
+SELECT
+    dc.id AS dish_id,
+    dc.name AS dish_name,
+    mf.event,
+    dc.first_appeared,
+    dc.last_appeared,
+    MAX(mif.price) AS max_price -- Assuming price is stored in menuitem_final
+FROM
+    cs531.dish_final dc
+JOIN
+    cs531.menuitem_final mif ON dc.id = mif.dish_id
+JOIN
+    cs531.menupage_final mpf ON mpf.id = mif.menu_page_id
+JOIN
+    cs531.menu_final mf ON mpf.menu_id = mf.id
+WHERE
+    dc.first_appeared < 2012 AND
+    dc.last_appeared < 2024 AND
+    mf.event LIKE '%BREAKFAST%'
+GROUP BY
+    dc.id, dc.name, mf.event, dc.first_appeared, dc.last_appeared
+ORDER BY
+    max_price DESC
+LIMIT 1;  
